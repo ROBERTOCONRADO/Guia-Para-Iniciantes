@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            align-items: center;
+            margin: 100px;
+            
+        }
+        div {
+            display: inline-flex;
+            position: relative;
+            width: 50%;
+            background-color: rgba(255, 255, 255, 0.165);
+            flex-direction: column;
+            padding: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 900;
+        
+        }
+        section {
+            display: flex;
+            float: right;
+            background-color: rgba(127, 255, 212, 0.413);
+            flex-direction: column;
+            gap: 0px;
+            padding: 30px;
+            border-radius: 10px;
+            
+        }
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgba(0, 0, 0, 0.771); 
+            text-shadow: 2px 2px 3px rgba(255, 0, 0, 0.252);
+        }    
+        input {
+            padding: 20px;
+            
+        }
+        .caixa {
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+        .caixa:hover {
+            box-shadow: 1px 1px 20px 1px rgba(255, 0, 0, 0.411);
+            cursor: pointer;
+        }
+        #mensagem {
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 3px;
+            text-transform: capitalize;
+            font-size: 20px;
+            
+        }
+        button {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: aquamarine;
+            border: none;
+            font-weight: bold;
+            border-radius: 3px;
+            cursor: pointer;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        a {
+            text-decoration: none;
+        }
+        button:hover {
+            color: black;
+            box-shadow: 1px 1px 10px 1px black;
+
+        }
+        .contact {
+            font-size: 30px;
+        }
+        h2, p {
+            font-weight: 900;
+        }
+        #img {
+            width: 50px;
+            margin-right: 15px;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <h1>ENTRE EM CONTATO</h1>
+        Nome:
+        <input type="name" class="caixa">
+        Sobrenome:
+        <input type="name" class="caixa">
+        Email:
+        <input type="email" name="email" class="caixa">
+        Mensagem:
+        <input type="text" id="mensagem">
+        <button>ENVIAR MENSAGEM</button>
+        <button><a href="index.html">VOLTAR PARA PÁGINA INICIAL</a></button>
+    </div>
+    <section>
+        <h2>Ou se Preferir</h2>
+        
+        <p>Poderá entrar em contato através dos
+                canais oficiais abaixo:</p>
+        <a href="https://www.linkedin.com/in/roberto-rocha-38781b235/" target="_blank">
+            <p class="contact"><img id="img" src="https://storage.googleapis.com/meetime-blog/wp-content/uploads/2020/08/O-alcance-do-LinkedIn-como-aumentar-a-sua-taxa-de-fechamento-de-neg%C3%B3cios-no-LinkedIn.png">Linkedin</p>
+        </a>        
+        
+        <p class="contact"><img id="img"src="https://icones.pro/wp-content/uploads/2021/02/telephone-icone-rouge.png" alt="icon">77 9 9155 6513</p>
+        
+        <p class="contact"><img id="img" src="https://images.vexels.com/media/users/3/140137/isolated/preview/d5ce03b9b26818e8020ad0972de98baa-icone-redondo-de-email.png" alt="icon">robertoconradorc@gmail.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15422.592107326695!2d-41.97697620223732!3d-14.900947094497885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x74f83c7d2545e9b%3A0xc42fc22862da28dc!2sConde%C3%BAba%2C%20BA%2C%2046200-000!5e0!3m2!1spt-BR!2sbr!4v1650460256801!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+    </section>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+        * {
+            margin: 0;
+        }
+
+        header {
+            background-image:url(https://www.integratto.com.br/wp-content/uploads/elementor/thumbs/2756-scaled-1-oujec6tmlnvsp0v6utyxzvq9f4yqwayk5he8u9bjig.jpg);
+            background-size: cover;
+            background-position: center center;
+            padding: 1.1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav > img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: .8rem; 
+            align-items: center;
+        }
+
+        ul li{
+            color: rgb(247, 247, 247);
+            padding: 5px 30px;
+            font-weight: bolder;
+            border-radius: 5px;
+            background: rgba(246, 219, 219, 0.281);
+            text-shadow: 0px 1px 5px black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.318);
+        }
+
+        li:hover {
+            color: rgb(0, 0, 0); 
+            background-color: rgba(246, 219, 219, 0.668);
+            box-shadow: 3px 3px 6px black;
+            text-shadow: none;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            gap: 0.6rem;
+            background-color: rgb(247, 247, 247);
+            width: auto;
+            height: 77vh;
+            margin: 10px;
+        }
+        aside {
+            width: 25%;
+            background: rgb(201, 127, 127);
+            border-radius: 10px;
+        }
+        aside button {
+            display: flex;
+            padding: 8.7px;
+            width: 325px;
+            justify-content: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+            background-color:#D8BFD8;
+        }
+        button:hover {
+            color: rgb(255, 89, 0);
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+        main {
+            width: 75%;
+            background: rgb(226, 213, 213);
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.233);
+        }
+        main picture img {
+            width: 320px;
+            height: 150px;
+            margin: 5px;
+        }
+
+        picture {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 5px;
+            justify-content: center;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+<body>
+    <header>
+        <nav>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxkcWDD5ZBp2006yu0HN4l67niOVRVLzDmEQ&usqp=CAU" alt="logo">
+        
+            <ul>
+                <li><a href="contato.html">HOME</a></li>
+                <li><a href="https://www.treinaweb.com.br/blog/o-que-e-e-como-comecar-com-html-e-css" target="_blank">DICAS PARA INICIANTES</a></li>
+                <li><a href="https://www.linkedin.com/in/roberto-rocha-38781b235/" target="_blank">LINKEDIN</a></li>
+                <li><a href="https://github.com/ROBERTOCONRADO" target="_blank">GITHUB</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <a href="https://becode.com.br/por-que-aprender-ruby-on-rails/#:~:text=O%20benef%C3%ADcio%20de%20aprender%20um,se%20aplicam%20na%20vida%20real." target="_blank"><button>Ruby</button></a>
+            <a href="https://www.treinaweb.com.br/blog/5-motivos-para-estudar-java#:~:text=Fatalmente%2C%20uma%20das%20primeiras%20op%C3%A7%C3%B5es,at%C3%A9%20aplica%C3%A7%C3%B5es%20web%20e%20mobile." target="_blank"><button>Java</button></a>
+            <a href="https://platzi.com.br/blog/porque-aprender-php/#:~:text=Aliando%20baixo%20custo%2C%20praticidade%20para,que%20posso%20aconselhar%20facilmente%20o" target="_blank"><button>PHP</button></a>
+            <a href="https://canaltech.com.br/software/c-a-linguagem-de-programacao-que-esta-em-tudo-o-que-voce-usa-19512/#:~:text=Recursos%20de%20baixo%20n%C3%ADvel%3A%20C,chamada%20de%20rotinas%20em%20Assembly." target="_blank"><button>C</button></a>
+            <a href="https://growiz.com.br/vale-a-pena-estudar-csharp/#:~:text=C%23%20n%C3%A3o%20%C3%A9%20s%C3%B3%20uma,permite%20ser%20estendido%20mais%20facilmente."  target="_blank"><button>C#</button></a>
+            <a href="http://www.linhadecodigo.com.br/artigo/2014/por-que-aprender-c_c.aspx#:~:text=Quem%20aprende%20C%2B%2B%20ter%C3%A1%20assim,Computa%C3%A7%C3%A3o%20onde%20C%2B%2B%20estivesse%20ausente." target="_blank"><button>C++</button></a>
+            <a href="https://www.dio.me/articles/11-motivos-para-aprender-python" target="_blank"><button>Phyton</button></a>
+            <a href="https://www.treinaweb.com.br/blog/5-bons-motivos-para-estudar-javascript" target="_blank"><button>JavaScript</button></a>
+            <a href="https://www.macoratti.net/16/05/net_typscr1.htm#:~:text=Uma%20das%20grandes%20vantagens%20da,o%20Visual%20Studio%20da%20Microsoft.)" target="_blank"><button>TypeScript</button></a>
+        </aside>
+        <main>
+            <picture>
+                <a><img src="http://arquivo.devmedia.com.br/noticias/artigos/artigo_padroes-arquiteturais-em-ruby_38761.png" alt="foto"></a>
+                <img src="https://2.bp.blogspot.com/-BdiM89lvY28/Vt5VGuibpXI/AAAAAAAAQpQ/aU2tch0JSeA/s1600/banner.jpg" alt="foto">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlkSbt_5Pceh2bXs9jtN7Rnv5C_7uqj5ZTFw&usqp=CAU" alt="foto">
+                <img src="https://1.bp.blogspot.com/-9L5m3y5xShA/V8hDwHciF2I/AAAAAAAAUBM/H3IjOzjT8Ww4bTQf_xOIbigrjruqNvgVACLcB/s1600/BANNER_POST.jpg" alt="foto">
+                <img src="https://1.bp.blogspot.com/-5-bztVt95hs/Vujcv2TPSfI/AAAAAAAAQ0c/KyxxnKLErDEyq0aTG7IUuACGiN6eSXrag/s1600/banner.jpg" alt="foto">
+                <img src="https://img.myloview.com.br/quadros/c++-code-on-dark-background-and-c++-tag-c++-programing-language-700-241668751.jpg" alt="foto">
+                <img src="https://i.ytimg.com/vi/XjI889CH9qw/hqdefault.jpg" alt="foto">
+                <img src="https://blog-geek-midia.s3.amazonaws.com/wp-content/uploads/2021/08/19161229/ide-javascript.png" alt="foto">
+                <img src="https://miro.medium.com/max/1200/1*yZTi1-PTpmVRWfdIZ0Q9nA.jpeg" alt="foto">
+            </picture>
+        </main>
+    </div>
+</body>
+</html>
